@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+       @await Html.PartialAsync("_Greeting")
+    </div>
+    
+    <h3>@ViewBag.PageTitle</h3>
+    <div>
+        Name : @ViewBag.Employee.Name
+    </div>
+    <div>
+        Salaire : @ViewBag.Employee.Salary
+    </div>
+    <div>
+        Departement : @ViewBag.Employee.Departement
+    </div>
+</body>
+</html>
+
+
+
